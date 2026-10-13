@@ -1,0 +1,46 @@
+name: Isolated Pages direct-upload benchmark
+on:
+  push:
+    branches: [benchmark/pages-vs-actions]
+permissions:
+  contents: read
+concurrency:
+  group: isolated-pages-benchmark
+  cancel-in-progress: false
+jobs:
+  build-deploy:
+    if: github.repository == '3dnau/site' && github.ref == 'refs/heads/benchmark/pages-vs-actions'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      HUGO_VERSION: '0.164.0'
+      NODE_VERSION: '22.22.0'
+      HUGO_CACHEDIR: ${{ github.workspace }}/.benchmark-hugo-cache
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          submodules: recursive
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.22.0'
+          cache: npm
+      - name: Install pinned Hugo Extended
+        run: |
+          curl --fail --location --retry 3 -o "$RUNNER_TEMP/hugo.tar.gz" https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_extended_0.164.0_linux-amd64.tar.gz
+          mkdir -p "$RUNNER_TEMP/hugo-bin"
+          tar -xzf "$RUNNER_TEMP/hugo.tar.gz" -C "$RUNNER_TEMP/hugo-bin" hugo
+          echo "$RUNNER_TEMP/hugo-bin" >> "$GITHUB_PATH"
+      - uses: actions/cache@v4
+        with:
+          path: .benchmark-hugo-cache
+          key: benchmark-hugo-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-${{ github.sha }}
+          restore-keys: benchmark-hugo-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-
+      - name: Build identical pinned source
+        run: sh scripts/benchmark-build.sh
+      - name: Direct upload with pinned Wrangler
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_3DNAU_BENCHMARK_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: 2a60adb835beed5a921c5471ac7906e3
+        run: |
+          test -n "$CLOUDFLARE_API_TOKEN"
+          npx --yes wrangler@4.46.0 pages deploy public --project-name=3dnau-bench-actions --branch=benchmark/pages-vs-actions --commit-hash="$GITHUB_SHA" --commit-dirty=false
