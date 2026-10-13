@@ -23,13 +23,13 @@ jobs:
         uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830
         with:
           path: ~/.npm
-          key: workers-bench-20261013-npm-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          key: workers-actions-resume-20261013-v1-npm-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
       - name: Restore isolated Hugo cache
         uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830
         with:
           path: .cache
-          key: workers-bench-20261013-hugo-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-${{ github.sha }}
-          restore-keys: workers-bench-20261013-hugo-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-
+          key: workers-actions-resume-20261013-v1-hugo-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-${{ github.sha }}
+          restore-keys: workers-actions-resume-20261013-v1-hugo-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-
       - name: Install pinned Hugo Extended
         run: |
           curl --fail --location --retry 2 -o "$RUNNER_TEMP/hugo.tar.gz" https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_extended_0.164.0_linux-amd64.tar.gz
