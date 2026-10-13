@@ -1,1 +1,1 @@
-workers-cold-diagnostic-1
+workers-actions-resume-cold-1
