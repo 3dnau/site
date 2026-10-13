@@ -15,7 +15,7 @@ jobs:
     env:
       HUGO_VERSION: '0.164.0'
       NODE_VERSION: '22.22.0'
-      HUGO_CACHEDIR: ${{ github.workspace }}/.benchmark-hugo-cache
+      HUGO_CACHEDIR: ${{ github.workspace }}/.cache
     steps:
       - uses: actions/checkout@v5
         with:
@@ -32,7 +32,7 @@ jobs:
           echo "$RUNNER_TEMP/hugo-bin" >> "$GITHUB_PATH"
       - uses: actions/cache@v4
         with:
-          path: .benchmark-hugo-cache
+          path: .cache
           key: benchmark-hugo-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-${{ github.sha }}
           restore-keys: benchmark-hugo-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-
       - name: Build identical pinned source

@@ -1,6 +1,7 @@
 #!/bin/sh
 set -eu
 # Isolated benchmark; use the same pinned source and build command on both hosts.
+export HUGO_CACHEDIR="$PWD/.cache"
 test "$(node --version)" = v22.22.0
 hugo version | grep 'v0.164.0-.*+extended'
 grep '^checkout_approved: false$' data/commerce.yml
