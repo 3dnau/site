@@ -7,12 +7,14 @@
 ## Decisiones confirmadas por Loren
 
 - Titular: Saray, autónoma establecida en España. No es una sociedad. El nombre legal completo, NIF y datos de facturación deben ser facilitados/validados por ella; no completar con conjeturas.
-- Evolución autorizada: pasar de catálogo a ecommerce con carrito y pago mediante Stripe Checkout; Cloudflare Pages + Functions + una base D1 propia de la tienda.
+- Evolución autorizada: pasar de catálogo a ecommerce con carrito y pago mediante Stripe Checkout; Cloudflare Workers Free permanente con Static Assets, API de comercio y una base D1 propia de la tienda; GitHub Actions construye y prepara la publicación. La adaptación local no autoriza desplegar, cambiar DNS/subdominio de cuenta ni activar pagos.
 - Los productos de 3DNAU se fabrican bajo demanda; no descontar stock numérico. Otras tiendas consumidoras de SanSoul podrán activar inventario real.
 - Asignar SKU/identificador comercial estable a cada producto y documentar altas futuras, sin derivarlo de títulos, traducciones o posiciones editables.
 - Eliminar el formulario provisional de selección de productos al integrar el carrito. El contacto de la home es independiente y debe conservarse.
 - Mantener las URLs, contenido editorial y relaciones de categorías. Las ediciones concurrentes de Saray mediante Sveltia en main prevalecen sobre snapshots antiguos.
-- Trabajo en ramas de desarrollo: feat/commerce-3dnau en este repo y feat/commerce-pages en SanSoul. Sin merge a main, cobros reales ni activación de producción en esta fase.
+- Integración local en `feat/workers-free-local` en consumidor y tema, basada en feature 7.1.0 con reconciliación local contextual de las mejoras del tema main 7.3.1; sin merge a main ni publicación. Destino futuro explícito `3dnau/site`; origin histórico seacomoseo no es destino de publicación. CMS usa `cms_repo: 3dnau/site`, preservando 3dnau.com y skip_ci true. Sin push/deploy/Actions habilitado ni cobros.
+- Mantenimiento solo manual: límite propuesto <=4 barridos/día condicionado al presupuesto Free compartido medido, no cron ni busy-loop. Checkout permanece false; D1 placeholder y protección de environment/main son gates pendientes. GL_PAT confirmado por metadata en `3dnau/site`; permiso efectivo, mapping y restore GitLab aún sin validar.
+- Piloto verificado: `3dnau.com` / `3dnau/site`. La instrucción de continuidad menciona `3dnow.com`, identidad no comprobada: no renombrar dominio/repositorio por inferencia. El original `seacomoseo/3dnau.com` y su alojamiento siguen siendo la fuente de producción hasta cutover aprobado; la copia es candidata, no producción. No integrar ahora el rescate de formularios ni nuevas mejoras concurrentes de main.
 
 ## Pendientes comerciales
 

@@ -1,0 +1,24 @@
+# Workers Free only. No paid CPU limits, R2, remote migrations or custom domains.
+# The placeholder database ID must be reviewed/replaced before any remote deploy.
+name = "site"
+main = "worker.js"
+compatibility_date = "2025-12-10"
+workers_dev = true
+preview_urls = false
+
+[assets]
+directory = "public"
+binding = "ASSETS"
+run_worker_first = ["/api/commerce/*"]
+not_found_handling = "404-page"
+
+[vars]
+COMMERCE_ENV = "test"
+COMMERCE_PROVIDER = "stripe"
+COMMERCE_CHECKOUT_APPROVED = "false"
+
+[[d1_databases]]
+binding = "COMMERCE_DB"
+database_name = "3dnau-commerce"
+database_id = "00000000-0000-0000-0000-000000000001"
+migrations_dir = "themes/sansoul/commerce/migrations"

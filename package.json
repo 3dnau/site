@@ -1,6 +1,6 @@
 {
   "name": "3dnau.com",
-  "version": "7.1.0",
+  "version": "8.0.0",
   "type": "module",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.0.1",
@@ -14,6 +14,8 @@
   "scripts": {
     "test": "node scripts/commerce-products.js validate && node --test scripts/commerce-products.test.js && npm --prefix themes/sansoul run test:commerce",
     "test:commerce:d1": "npm --prefix themes/sansoul run test:commerce:d1",
+    "test:commerce:workers": "npm --prefix themes/sansoul run test:commerce:workers",
+    "build:workers": "sh do hugo && node themes/sansoul/node_modules/wrangler/bin/wrangler.js deploy --config wrangler.workers.toml --dry-run",
     "server": "npx http-server public"
   },
   "repository": {

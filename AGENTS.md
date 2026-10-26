@@ -90,6 +90,7 @@ Use `themes/sansoul/_examples/data/section/example.yml` as the parameter catalog
 - `data/config.yml`: behavior and integrations.
 - `data/langs.yml`: languages and per-language overrides.
 - `data/styles.yml`: design tokens and global UI options.
+- `data/resources.yml`: resources used indirectly by CSS, JavaScript, or dynamic data. SVG uses from rendered templates are grouped automatically; do not add manual sprite-group configuration.
 - `data/types/*.yml`: collections and templates.
 - `data/section/*.yml`: reusable section definitions.
 - `data/defaults.yml`: language/type/path defaults; keep selectors narrow.

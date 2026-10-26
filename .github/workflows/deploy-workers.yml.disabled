@@ -1,0 +1,108 @@
+# Intentionally inert: rename to .yml only after parent review and environment setup.
+# Sveltia global Publish Changes uses repository_dispatch sveltia-cms-publish.
+# Wired only in this INERT template; activation and authenticated acceptance pending.
+name: Workers Free test build deploy
+on:
+  push:
+    branches: [main, feat/workers-free-local]
+  repository_dispatch:
+    types: [sveltia-cms-publish]
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: Publish only after Free plan, database and hostname review
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: workers-free-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.repository == '3dnau/site'
+    outputs:
+      deploy_allowed: ${{ steps.event-gate.outputs.deploy_allowed }}
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          submodules: recursive
+          persist-credentials: false
+      - name: Validate authenticated event before build
+        id: event-gate
+        env:
+          WORKERS_PUBLISH_ACTOR_IDS: ${{ vars.WORKERS_PUBLISH_ACTOR_IDS }}
+        run: python3 scripts/workers-publish-gate.py
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: 22.22.0
+          cache: npm
+      - name: Install pinned Hugo Extended
+        run: |
+          curl --fail --location --retry 3 https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_extended_0.164.0_linux-amd64.tar.gz -o "$RUNNER_TEMP/hugo.tar.gz"
+          printf '%s  %s\n' 'fea17b8c076f950bb2e9f9486667bdaa29422883888d509d63931c73e8a9b3a4' "$RUNNER_TEMP/hugo.tar.gz" | sha256sum --check --strict
+          mkdir "$RUNNER_TEMP/hugo-bin"
+          tar -xzf "$RUNNER_TEMP/hugo.tar.gz" -C "$RUNNER_TEMP/hugo-bin" hugo
+          printf '%s\n' "$RUNNER_TEMP/hugo-bin" >> "$GITHUB_PATH"
+      - run: npm ci && npm --prefix themes/sansoul ci
+      - run: python3 scripts/workers-workflow.test.py
+      - run: node scripts/commerce-products.js validate && node --test scripts/commerce-products.test.js
+      - run: COMMERCE_RUNTIME=workers node --test --test-concurrency=1 commerce/test/unit/*.test.js commerce/test/routing.integration.test.js commerce/test/d1.integration.test.js
+        working-directory: themes/sansoul
+        timeout-minutes: 15
+      - run: sh do hugo && sh do migrations check && CMS_EXPECT_URL=https://3dnau.com/ node --test themes/sansoul/scripts/cms-contract.test.js
+      - run: node themes/sansoul/node_modules/wrangler/bin/wrangler.js deploy --config wrangler.workers.toml --dry-run
+  deploy:
+    needs: verify
+    if: needs.verify.result == 'success' && needs.verify.outputs.deploy_allowed == 'true' && github.ref == 'refs/heads/main' && github.repository == '3dnau/site' && ((github.event_name == 'workflow_dispatch' && inputs.deploy == true) || (github.event_name == 'repository_dispatch' && github.event.action == 'sveltia-cms-publish'))
+    environment: workers-free-reviewed
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.sha }}
+          submodules: recursive
+          persist-credentials: false
+      - name: Validate authenticated event before build
+        id: event-gate
+        env:
+          WORKERS_PUBLISH_ACTOR_IDS: ${{ vars.WORKERS_PUBLISH_ACTOR_IDS }}
+        run: python3 scripts/workers-publish-gate.py
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: 22.22.0
+      - name: Require explicit deployment configuration
+        env:
+          FREE_APPROVED: ${{ vars.WORKERS_FREE_APPROVED }}
+          DEPLOY_URL: ${{ vars.WORKERS_DEPLOY_URL }}
+        run: |
+          test "$FREE_APPROVED" = true
+          test -n "$DEPLOY_URL"
+          ! python3 -c 'from pathlib import Path; import sys; sys.exit(0 if "00000000-0000-0000-0000-000000000001" in Path("wrangler.workers.toml").read_text() else 1)'
+      - name: Install pinned Hugo Extended
+        run: |
+          curl --fail --location --retry 3 https://github.com/gohugoio/hugo/releases/download/v0.164.0/hugo_extended_0.164.0_linux-amd64.tar.gz -o "$RUNNER_TEMP/hugo.tar.gz"
+          printf '%s  %s\n' 'fea17b8c076f950bb2e9f9486667bdaa29422883888d509d63931c73e8a9b3a4' "$RUNNER_TEMP/hugo.tar.gz" | sha256sum --check --strict
+          mkdir "$RUNNER_TEMP/hugo-bin"
+          tar -xzf "$RUNNER_TEMP/hugo.tar.gz" -C "$RUNNER_TEMP/hugo-bin" hugo
+          printf '%s\n' "$RUNNER_TEMP/hugo-bin" >> "$GITHUB_PATH"
+      - run: npm ci && npm --prefix themes/sansoul ci && sh do hugo
+      - name: Reject stale or unreviewed snapshot immediately before publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/workers-release-snapshot.py
+      - name: Publish approved build without applying remote migrations
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_DEPLOY_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          printf '%s\n' "$GITHUB_SHA" > public/deployment-sha.txt
+          node themes/sansoul/node_modules/wrangler/bin/wrangler.js deploy --config wrangler.workers.toml
+      - name: Verify exact deployed revision
+        env:
+          DEPLOY_URL: ${{ vars.WORKERS_DEPLOY_URL }}
+        run: |
+          curl --fail --retry 5 --retry-all-errors "$DEPLOY_URL/deployment-sha.txt" -o "$RUNNER_TEMP/deployed-sha.txt"
+          test "$(tr -d '\r\n' < "$RUNNER_TEMP/deployed-sha.txt")" = "$GITHUB_SHA"
