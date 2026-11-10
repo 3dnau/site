@@ -9,6 +9,7 @@ category:
 commerce_id: a6489674-3c95-4f46-bff3-1d973b89be80
 sku: 3DNAU-0052
 commerce_active: true
+commerce_weight_kg: 0.25
 ---
 
 **Material compuesto de base más 6 bastones cuadrados válido para el test MP-R (Escalas de Desarrollo Merrill-Palmer Revisadas).**

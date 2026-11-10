@@ -9,6 +9,7 @@ category:
 commerce_id: 83e3b9f9-1c2a-4cdf-9c68-9bb4c8574ea9
 sku: 3DNAU-0057
 commerce_active: true
+commerce_weight_kg: 0.8
 ---
 
 **Tablero rígido con 10 cubos Corsi unidos a él, valido para el test WNV (Escala No Verbal de Aptitud Intelectual de Wechsler).**

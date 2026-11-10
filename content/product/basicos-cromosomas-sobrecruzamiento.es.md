@@ -14,6 +14,7 @@ category:
 commerce_id: 0918d109-2838-4e6e-9edc-f5e8970b75c3
 sku: 3DNAU-0008
 commerce_active: true
+commerce_weight_kg: 0.25
 ---
 
 **Modelo Didáctico de Cromosomas Homólogos y Sobrecruzamiento Meiótico (Crossing-Over) con Unión Magnética**

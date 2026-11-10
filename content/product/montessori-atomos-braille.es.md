@@ -14,6 +14,7 @@ category:
 commerce_id: f1ed5042-e4e9-44db-b0bb-94e7c5e49514
 sku: 3DNAU-0039
 commerce_active: true
+commerce_weight_kg: 1
 ---
 
 **Set de Átomos Poliédricos para Química Básica**

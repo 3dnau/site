@@ -10,6 +10,7 @@ category:
 commerce_id: 6f61b878-f7ed-4f87-82b5-96cfdcd269ad
 sku: 3DNAU-0044
 commerce_active: true
+commerce_weight_kg: 0.6
 ---
 
 **Kit de Inmunología Montessori: Sistema Inmune, Anticuerpos y Barrera Biológica**

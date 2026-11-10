@@ -9,6 +9,7 @@ category:
 commerce_id: ab6389bc-070a-4eb0-9b00-ff0fcd74c319
 sku: 3DNAU-0049
 commerce_active: true
+commerce_weight_kg: 0.5
 ---
 
 **Material compuesto de base con bastón más 3 anillas, válido para el test MP-R (Escalas de Desarrollo Merrill-Palmer Revisadas).**

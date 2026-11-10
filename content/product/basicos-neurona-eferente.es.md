@@ -13,6 +13,7 @@ category:
 commerce_id: ac18aa43-0c6a-4ed4-aae4-1d4c39c9ef01
 sku: 3DNAU-0016
 commerce_active: true
+commerce_weight_kg: 0.15
 ---
 
 **Modelo Anatómico Manipulativo de Neurona Eferente / Botón Sináptico**

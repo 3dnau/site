@@ -13,6 +13,7 @@ category:
 commerce_id: 341a7175-6645-4a0f-8471-e643814a05c5
 sku: 3DNAU-0030
 commerce_active: true
+commerce_weight_kg: 0.6
 ---
 
 ## Ideal para

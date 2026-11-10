@@ -9,6 +9,7 @@ category:
 commerce_id: 9d880bf3-cfff-4da9-9cbc-f0a36151f6dd
 sku: 3DNAU-0056
 commerce_active: true
+commerce_weight_kg: 0.3
 ---
 
 **Material compuesto de base bicolor con huecos y piezas con formas que encajan, válido para el test MP-R (Escalas de Desarrollo Merrill-Palmer Revisadas).**

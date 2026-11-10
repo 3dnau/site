@@ -9,6 +9,7 @@ category:
 commerce_id: d3a2fb3c-e55c-4e35-ac6d-aeb057c85e23
 sku: 3DNAU-0032
 commerce_active: true
+commerce_weight_kg: 2.6
 ---
 
 ## El pack de 3 kit de ADN avanzado es ideal para

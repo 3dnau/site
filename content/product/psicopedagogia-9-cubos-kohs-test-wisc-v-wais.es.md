@@ -9,6 +9,7 @@ category:
 commerce_id: fb42be5c-1c7e-4434-8b27-0327f4788a85
 sku: 3DNAU-0051
 commerce_active: true
+commerce_weight_kg: 0.25
 ---
 
 **Cubos de Kohs validos para prueba WISC V y prueba WAIS.**

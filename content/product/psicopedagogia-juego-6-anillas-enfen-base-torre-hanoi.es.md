@@ -9,6 +9,7 @@ category:
 commerce_id: 9ff727f1-f716-4541-ab2f-1c30b619f7dc
 sku: 3DNAU-0054
 commerce_active: true
+commerce_weight_kg: 0.9
 ---
 
 **Juego de anillas ENFEN "Torre de Hanoi" valido para el test.**

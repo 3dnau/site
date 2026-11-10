@@ -13,6 +13,7 @@ category:
 commerce_id: 0e599ed6-8120-47ed-afa1-d6e77b1f5c77
 sku: 3DNAU-0034
 commerce_active: true
+commerce_weight_kg: 0.1
 ---
 
 ## Descripción

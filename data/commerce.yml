@@ -4,19 +4,25 @@ origin: https://3dnau.com
 currency: eur
 stock_mode: made_to_order
 checkout_approved: false
-# Política de totales (servidor). Fuente: correo de Saray del 11/10/2026 (hilo
-# «Cuestionario Ecommerce»). PENDIENTE de su confirmación (correo del 02/11/2026):
-# precios con IVA incluido, IVA incluido en el envío, regla de 2 kg y de varios
-# artículos. Sin pesos de producto (commerce_weight_kg) todo pedido va a presupuesto.
-# Canarias (35, 38), Ceuta (51) y Melilla (52) van a presupuesto.
+checkout_tax_policy: included
+checkout_shipping_policy: flat_rate
+# Política de totales (servidor). Fuente: correo de Saray del 10/11/2026 (hilo
+# «Cuestionario Ecommerce»). BORRADOR pendiente de confirmar con ella:
+# - Envío a península y Baleares 12,05 € exento de IVA (lo dio para Canarias,
+#   Ceuta y Melilla; la carta certificada de 1-2 kg cuesta 12,23 € en 2026).
+# - Más de 2 kg o más de una unidad → presupuesto.
+# - Canarias (35, 38), Ceuta (51) y Melilla (52) → presupuesto en el lanzamiento.
 totals_policy:
-  version: 3dnau-2026-11-borrador
+  version: 3dnau-2026-11-10-borrador
   destinations:
     ES:
       tax: { mode: inclusive, rate_percent: 21 }
       excluded_postal_prefixes: ['35', '38', '51', '52']
       shipping:
         amount: 12.05
-        tax: { mode: inclusive, rate_percent: 21 }
+        tax: { mode: exempt }
         max_weight_kg: 2
         max_units: 1
+notes:
+  product: "Precio con IVA incluido. Envío a península y Baleares: 12,05 € (una unidad de hasta 2 kg). Fabricamos cada pedido."
+  cart: "Canarias, Ceuta, Melilla, otros países, varias unidades o más de 2 kg: [pide presupuesto](/#contacto) y te lo enviamos."

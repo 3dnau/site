@@ -9,6 +9,7 @@ category:
 commerce_id: ff01e108-15a6-4736-b8fc-010244c766a0
 sku: 3DNAU-0047
 commerce_active: true
+commerce_weight_kg: 0.3
 ---
 
 **Cubos de Kohs validos para prueba WPPSI-IV.**

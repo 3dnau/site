@@ -9,6 +9,7 @@ category:
 commerce_id: 4d0c7491-527c-4e34-bcaf-8a2ab3b16459
 sku: 3DNAU-0048
 commerce_active: true
+commerce_weight_kg: 0.4
 ---
 
 **Juego de cubos de Kohs validos tanto para prueba WISC y WAIS, como para prueba WPPSI.**

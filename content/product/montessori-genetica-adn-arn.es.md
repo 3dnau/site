@@ -12,6 +12,7 @@ category:
 commerce_id: e77bcd18-f42c-4184-b8ca-84c773fc5843
 sku: 3DNAU-0043
 commerce_active: true
+commerce_weight_kg: 1
 ---
 
 **Kit de Genética Montessori: Modelo de Doble Hélice ADN y ARN**

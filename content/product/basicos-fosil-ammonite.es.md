@@ -14,6 +14,7 @@ category:
 commerce_id: 75de60a8-3ce3-476c-a3c1-16cb4ac8c7b8
 sku: 3DNAU-0014
 commerce_active: true
+commerce_weight_kg: 0.15
 ---
 
 **Modelo Paleontológico Didáctico de Fósil de Ammonite (Molde Interno y Contramolde)**

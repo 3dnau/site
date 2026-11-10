@@ -17,6 +17,7 @@ category:
 commerce_id: 1465c264-5305-4c02-b27a-16b7f580e427
 sku: 3DNAU-0028
 commerce_active: true
+commerce_weight_kg: 1.3
 ---
 
 ## La Maqueta del ADN es ideal para

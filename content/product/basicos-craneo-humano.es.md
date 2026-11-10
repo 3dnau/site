@@ -13,6 +13,7 @@ category:
 commerce_id: e4cc3261-8f70-412a-a235-180dffa02ee8
 sku: 3DNAU-0007
 commerce_active: true
+commerce_weight_kg: 1
 ---
 
 **Modelo Anatómico de Cráneo Humano**
