@@ -12,6 +12,9 @@ imgs:
 category:
 - basicos
 - basicos-botanica
+commerce_id: defb19ec-e5fb-4f38-9021-a565c111f3b6
+sku: 3DNAU-0013
+commerce_active: true
 ---
 
 **Modelo de Flor Unisexual y Dioecia del Sauce (Salix)**

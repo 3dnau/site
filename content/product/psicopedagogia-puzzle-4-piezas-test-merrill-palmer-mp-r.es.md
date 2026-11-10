@@ -6,6 +6,9 @@ img: /u/productos/psicopedagogia/puzzle-4-piezas-test-merrill-palmer-mp-r.webp
 price: 24.87
 category:
 - psicopedagogia
+commerce_id: 0a32f7f9-103b-458d-b021-a4b11999b7ad
+sku: 3DNAU-0055
+commerce_active: true
 ---
 
 **Material compuesto de base bicolor con huecos y piezas con formas que encajan, válido para el test MP-R (Escalas de Desarrollo Merrill-Palmer Revisadas).**

@@ -11,6 +11,9 @@ imgs:
 category:
 - montessori
 - biologia
+commerce_id: abb74808-24c6-4797-98c2-7768ac8e18b1
+sku: 3DNAU-0042
+commerce_active: true
 ---
 
 **Modelo Tridimensional de Célula Eucariota Vegetal Desmontable con Imanes**

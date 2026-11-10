@@ -10,6 +10,9 @@ imgs:
 - /u/whatsapp-image-2026-01-07-at-11-42-55-3.webp
 category:
 - biologia
+commerce_id: 341a7175-6645-4a0f-8471-e643814a05c5
+sku: 3DNAU-0030
+commerce_active: true
 ---
 
 ## Ideal para

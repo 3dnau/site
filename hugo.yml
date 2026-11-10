@@ -9,3 +9,6 @@ params:
   netlify: 3dnau
   worker_vars:
     FORMS_PROVIDER: hold
+    COMMERCE_ENV: test
+    COMMERCE_PROVIDER: stripe
+    COMMERCE_CHECKOUT_APPROVED: 'false'

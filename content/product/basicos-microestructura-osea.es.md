@@ -10,6 +10,9 @@ imgs:
 category:
 - basicos
 - basicos-anatomia
+commerce_id: df4d2c0a-2d25-4071-bfc3-47472764f193
+sku: 3DNAU-0015
+commerce_active: true
 ---
 
 **Modelo de Microestructura Ósea (Hueso Compacto y Esponjoso)**

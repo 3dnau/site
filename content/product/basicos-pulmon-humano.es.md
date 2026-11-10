@@ -11,6 +11,9 @@ imgs:
 category:
 - basicos
 - basicos-anatomia
+commerce_id: 0af5d2e1-da93-4803-8c82-ae786a88f09e
+sku: 3DNAU-0021
+commerce_active: true
 ---
 
 **Modelo Anatómico de Pulmón (Corte Interno y Árbol Bronquial)**

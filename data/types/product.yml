@@ -8,7 +8,6 @@ tpl:
   - file: productos-content
   - file: productos-images
   - file: base-rel
-  - file: productos-comprar
   - file: base-share
   list:
     cols: 3

@@ -12,6 +12,9 @@ imgs:
 category:
 - basicos
 - basicos-anatomia
+commerce_id: 154d9a91-d7fe-46de-9301-5f217b98c14c
+sku: 3DNAU-0005
+commerce_active: true
 ---
 
 **Modelo Anatómico de Corazón Humano (Corte longitudinal con fijación magnética)**

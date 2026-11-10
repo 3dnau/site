@@ -9,6 +9,9 @@ imgs:
 - /u/productos/inclusivos/adn-braille.webm#mute
 category:
 - inclusivos
+commerce_id: 588be7b0-5db2-4c60-8829-44c393c2e685
+sku: 3DNAU-0035
+commerce_active: true
 ---
 
 **B1. Modelo de Doble Hélice de ADN con Enzimas de Replicación y Síntesis de Proteínas (Adaptado a Braille)**

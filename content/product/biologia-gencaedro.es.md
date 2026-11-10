@@ -8,6 +8,9 @@ imgs:
 - /u/productos/biologia/gencaedro.webm#mute
 category:
 - repuestos
+commerce_id: 1292e97a-692a-4c96-9574-49eb166ea37c
+sku: 3DNAU-0027
+commerce_active: true
 ---
 
 ## Ideal para

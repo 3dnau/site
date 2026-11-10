@@ -8,6 +8,9 @@ price: 159
 category:
 - montessori
 - biologia
+commerce_id: 4b187637-c1ab-4a62-a96a-e7e0b8747ab0
+sku: 3DNAU-0045
+commerce_active: true
 ---
 
 **PACK ESPECIAL: Dúo Células Eucariotas (Animal y Vegetal) con Enlace Magnético**

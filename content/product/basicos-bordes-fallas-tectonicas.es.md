@@ -12,6 +12,9 @@ imgs:
 category:
 - basicos
 - basicos-geologia
+commerce_id: 4119367a-0fcd-4ff8-af1f-74ff8ddbe233
+sku: 3DNAU-0002
+commerce_active: true
 ---
 
 **Set Didáctico de Bordes y Fallas Tectónicas (4 Piezas)**

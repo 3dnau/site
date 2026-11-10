@@ -6,6 +6,9 @@ img: /u/productos/psicopedagogia/60-fichas-50-palitos-material-test-tedi-math.we
 price: 22.9
 category:
 - psicopedagogia
+commerce_id: 909e0715-bcdb-4fba-b979-a7550874b35b
+sku: 3DNAU-0050
+commerce_active: true
 ---
 
 **Juego compuesto de 60 fichas (10 cubos, 15 cilindros grandes y 35 cilindros pequeños) y 50 palitos. Valido para el test Tedi-Math (Test para el Diagnóstico de las Competencias Básicas en Matemáticas).**

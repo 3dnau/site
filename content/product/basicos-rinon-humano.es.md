@@ -13,6 +13,9 @@ imgs:
 category:
 - basicos
 - basicos-anatomia
+commerce_id: 63f26944-da87-4863-8b48-8e6004da6c14
+sku: 3DNAU-0022
+commerce_active: true
 ---
 
 **Modelo Anatómico de Riñón Humano (Corte Coronal con Fijación Magnética)**

@@ -1,21 +1,29 @@
-# ADN del proyecto
+# ADN de 3DNAU
 
-## Resumen
+## Identidad y oferta
 
-Describe aquí qué es este proyecto, a quién se dirige y qué objetivos condicionan su contenido o diseño.
+3DNAU ofrece material didáctico manipulativo fabricado mediante impresión 3D, con colecciones de biología, psicopedagogía, recursos inclusivos/Braille, Montessori y básicos de aula. La web actual describe fabricación bajo pedido. La investigación pública se destila en [Audiencia, oferta y voz](audiencia-oferta-voz.md), separando afirmaciones de marca de decisiones comerciales pendientes.
 
-## Particularidades
+## Decisiones confirmadas por Loren
 
-Enumera decisiones, restricciones o excepciones propias de este proyecto.
+- Titular: Saray, autónoma establecida en España. No es una sociedad. El nombre legal completo, NIF y datos de facturación deben ser facilitados/validados por ella; no completar con conjeturas.
+- Evolución autorizada: pasar de catálogo a ecommerce con carrito y pago mediante Stripe Checkout; Cloudflare Workers Free permanente con Static Assets, API de comercio y una base D1 propia de la tienda; GitHub Actions construye y prepara la publicación. La adaptación local no autoriza desplegar, cambiar DNS/subdominio de cuenta ni activar pagos.
+- Los productos de 3DNAU se fabrican bajo demanda; no descontar stock numérico. Otras tiendas consumidoras de SanSoul podrán activar inventario real.
+- Asignar SKU/identificador comercial estable a cada producto y documentar altas futuras, sin derivarlo de títulos, traducciones o posiciones editables.
+- Eliminar el formulario provisional de selección de productos al integrar el carrito. El contacto de la home es independiente y debe conservarse.
+- Mantener las URLs, contenido editorial y relaciones de categorías. Las ediciones concurrentes de Saray mediante Sveltia en main prevalecen sobre snapshots antiguos.
+- Repositorio y hosting: `3dnau/site` es el repositorio canónico (CMS incluido). Producción https://3dnau.com sigue en Netlify desde `main` hasta el cambio de hosting aprobado; el destino es el Worker único de SanSoul (GitHub Actions → Cloudflare Workers Free, con espejo Netlify) y D1/KV propios en la cuenta Cloudflare «3dnau.com». Worker TEST: https://3dnau.3dnau.workers.dev (noindex).
+- Comercio: catálogo y carrito activos en la rama de integración, con `checkout_approved: false` y `COMMERCE_CHECKOUT_APPROVED=false`; ningún cobro real sin aprobación expresa. Mantenimiento (conciliación/outbox) solo manual, sin cron ni bucles.
+- Formularios: por el Worker del proyecto (`action: worker`); en TEST quedan retenidos (`FORMS_PROVIDER: hold`).
 
-## Documentos disponibles
+## Pendientes comerciales
 
-Enumera los demás archivos de `dna/`, indicando brevemente qué contienen y para qué tareas son relevantes. Si no hay ninguno, indícalo expresamente.
+IVA incluido/excluido y tipos aplicables; destinos y tarifas de envío; plazo/capacidad de fabricación; productos personalizables y pedidos por presupuesto; facturación a particulares/centros; condiciones de venta, devoluciones y privacidad. Preparar un cuestionario único para Saray. El NIF ficticio existente no valida cumplimiento legal.
 
-Añade únicamente los que el proyecto necesite, por ejemplo:
+## Fuentes y documentos
 
-- `copy.md`: voz, tono y vocabulario;
-- `audiencia.md`: públicos, necesidades y objeciones;
-- `identidad.md`: marca y criterios visuales;
-- `negocio.md`: oferta, prioridades y restricciones;
-- `integraciones.md`: decisiones específicas de servicios externos.
+- Confirmaciones de Loren en conversación de autorización del 3 de octubre de 2026.
+- Sitio público: https://3dnau.com/ ; aviso legal: https://3dnau.com/legal/ .
+- Este índice es el contexto confirmado inicial. Los documentos específicos de negocio, audiencia e integraciones se añadirán sólo si aportan información nueva y trazable; las instrucciones genéricas de SanSoul viven en sus documentos canónicos.
+- [Identidades comerciales y altas de 3DNAU](commerce-identities.md): registro,
+  bajas permanentes y siguiente SKU; uso compartido del carrito en el manual SanSoul.

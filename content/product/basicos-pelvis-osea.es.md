@@ -10,6 +10,9 @@ imgs:
 category:
 - basicos
 - basicos-anatomia
+commerce_id: 1c8688b3-2d1a-4969-bc79-f5985e32af2e
+sku: 3DNAU-0018
+commerce_active: true
 ---
 
 **Modelo Anatómico de Pelvis Ósea (Pelvis y Sacro)**

@@ -1,0 +1,22 @@
+enabled: true
+functions_enabled: true
+origin: https://3dnau.com
+currency: eur
+stock_mode: made_to_order
+checkout_approved: false
+# Política de totales (servidor). Fuente: correo de Saray del 11/10/2026 (hilo
+# «Cuestionario Ecommerce»). PENDIENTE de su confirmación (correo del 02/11/2026):
+# precios con IVA incluido, IVA incluido en el envío, regla de 2 kg y de varios
+# artículos. Sin pesos de producto (commerce_weight_kg) todo pedido va a presupuesto.
+# Canarias (35, 38), Ceuta (51) y Melilla (52) van a presupuesto.
+totals_policy:
+  version: 3dnau-2026-11-borrador
+  destinations:
+    ES:
+      tax: { mode: inclusive, rate_percent: 21 }
+      excluded_postal_prefixes: ['35', '38', '51', '52']
+      shipping:
+        amount: 12.05
+        tax: { mode: inclusive, rate_percent: 21 }
+        max_weight_kg: 2
+        max_units: 1

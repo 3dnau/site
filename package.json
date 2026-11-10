@@ -12,7 +12,7 @@
     "yaml": "2.9.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node scripts/commerce-products.js validate && node --test scripts/commerce-products.test.js scripts/cms-contract.test.js",
     "server": "pnpm dlx http-server public"
   },
   "repository": {

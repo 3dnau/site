@@ -8,6 +8,9 @@ imgs:
 - https://archive.org/download/bomba-sodio-potasio_202506/bomba-sodio-potasio.webp
 category:
 - biologia
+commerce_id: 8b90202e-4fc3-4873-850a-39ae00bb6975
+sku: 3DNAU-0024
+commerce_active: true
 ---
 
 ## Ideal para

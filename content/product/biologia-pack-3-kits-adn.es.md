@@ -14,6 +14,9 @@ imgs:
 - /u/productos/biologia/protein-bracelet.webm#mute
 category:
 - biologia
+commerce_id: 0d6fa55a-f338-40d4-846b-aa84d805e5c9
+sku: 3DNAU-0033
+commerce_active: true
 ---
 
 `Oferta de lanzamiento`

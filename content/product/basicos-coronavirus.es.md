@@ -10,6 +10,9 @@ imgs:
 category:
 - basicos
 - basicos-microbiologia
+commerce_id: 3bf9df58-ca82-464c-8bb8-22a701481226
+sku: 3DNAU-0006
+commerce_active: true
 ---
 
 **Modelo Esférico de Coronavirus / Virus con Espículas (Proteína S)**

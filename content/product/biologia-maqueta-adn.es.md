@@ -12,6 +12,9 @@ imgs:
 - /u/productos/biologia/maqueta-adn-2.webm#mute
 category:
 - repuestos
+commerce_id: 447293d5-ff18-4320-8541-229367ed6d64
+sku: 3DNAU-0031
+commerce_active: true
 ---
 
 ## La maqueta del ADN es ideal para

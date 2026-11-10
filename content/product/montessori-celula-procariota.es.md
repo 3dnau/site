@@ -10,6 +10,9 @@ imgs:
 category:
 - montessori
 - biologia
+commerce_id: 3abbb6e6-38b0-4750-93a2-4fa92a8997db
+sku: 3DNAU-0041
+commerce_active: true
 ---
 
 **Modelo ultraestructural de Célula Procariota (Bacteria) Desmontable**

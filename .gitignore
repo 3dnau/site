@@ -10,3 +10,4 @@ jsconfig.json
 .wrangler
 .dev.vars
 .pnpm-store
+functions/_commerce/

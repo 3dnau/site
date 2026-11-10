@@ -11,6 +11,9 @@ imgs:
 category:
 - basicos
 - basicos-tejidos
+commerce_id: b134f68a-9eb4-42d8-ab67-2bf1d9752500
+sku: 3DNAU-0023
+commerce_active: true
 ---
 
 **Corte Transversal de Vaso Sanguíneo y Elementos Formes (Hematología)**
