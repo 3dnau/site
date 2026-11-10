@@ -12,3 +12,4 @@ params:
     COMMERCE_ENV: test
     COMMERCE_PROVIDER: stripe
     COMMERCE_CHECKOUT_APPROVED: 'false'
+    COMMERCE_NOTIFY_TO: info@3dnau.com
