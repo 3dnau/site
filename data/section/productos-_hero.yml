@@ -3,7 +3,7 @@ node: header
 box:
   align: left
 boxes:
-- title: '{{% get title %}}'
+- title: '{{ get title }}'
 - tags:
   - type: type
   - type: tax
