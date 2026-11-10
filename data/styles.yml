@@ -76,6 +76,7 @@ btns:
     bold: false
     caps: false
 inputs:
+  action: worker
   fill: false
   labels: in
 shadow:

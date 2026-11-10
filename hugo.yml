@@ -7,3 +7,5 @@ params:
   repo: site
   worker: 3dnau
   netlify: 3dnau
+  worker_vars:
+    FORMS_PROVIDER: hold
