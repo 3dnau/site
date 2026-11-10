@@ -15,6 +15,7 @@ footer:
     - ::balance::          {{< internal-link legal >}}
     - ::encrypted::        {{< internal-link privacy >}}
     - ::cookie::           {{< internal-link cookies >}}
+    - ::shopping_cart::    {{< internal-link sales >}}
     - ::brand:seacomoseo:: {{< i18n web_design >}} [seacomoseo.com](https://seacomoseo.com/ "{sublock}")
     {.list-inline}
 
