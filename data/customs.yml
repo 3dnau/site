@@ -10,11 +10,11 @@
   label: Secciones
   name: sections
   widget: dict
-  sub:
+  fields:
   - label: Cabecera
     name: header
     widget: dict
-    sub:
+    fields:
     - var: bi
     - var: img
     - var: vid
@@ -24,42 +24,42 @@
   - label: Propuesta
     name: propuesta
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: icon
     - label: 1ª
       name: primera
       widget: dict
-      sub:
+      fields:
       - var: img
       - var: title
       - var: md
     - label: 2ª
       name: segunda
       widget: dict
-      sub:
+      fields:
       - var: img
       - var: title
       - var: md
   - label: Características
     name: caracteristicas
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: icon
     - label: Elementos
       name: boxes
       widget: slice
-      sub:
+      fields:
       - var: icon
       - var: title
       - var: md
   - label: Nosotros
     name: nosotros
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: icon
@@ -67,13 +67,13 @@
     - label: Elementos
       name: boxes
       widget: slice
-      sub:
+      fields:
       - var: title
       - var: md
   - label: Catálogo
     name: catalogo
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: url
@@ -81,7 +81,7 @@
   - label: Productos
     name: productos
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: url
@@ -89,7 +89,7 @@
   - label: Reseñas
     name: resenas
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: icon
@@ -97,7 +97,7 @@
   - label: FAQ
     name: faq
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: icon
@@ -105,7 +105,7 @@
   - label: Contacto
     name: contacto
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: icon
@@ -118,11 +118,11 @@
   label: Secciones
   name: landing_sections
   widget: dict
-  sub:
+  fields:
   - label: Cabecera
     name: header
     widget: dict
-    sub:
+    fields:
     - var: bi
     - var: img
     - var: hanchor
@@ -132,7 +132,7 @@
   - label: Dolor
     name: pain
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: icon
@@ -141,7 +141,7 @@
   - label: Solución
     name: solution
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: icon
@@ -150,26 +150,26 @@
   - label: Para Quién Es
     name: qualification
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: icon
     - label: ES
       name: is
       widget: dict
-      sub:
+      fields:
       - var: title
       - var: md
     - label: NO
       name: isnt
       widget: dict
-      sub:
+      fields:
       - var: title
       - var: md
   - label: Recorrido
     name: path
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: icon
@@ -178,7 +178,7 @@
   - label: Urgencia
     name: urgency
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: icon
@@ -187,7 +187,7 @@
   - label: Sobre Saray
     name: about
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: icon
@@ -196,7 +196,7 @@
   - label: Reseñas
     name: resenas
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: icon
@@ -204,7 +204,7 @@
   - label: Descarga
     name: download
     widget: dict
-    sub:
+    fields:
     - var: title
     - var: sub
     - var: icon

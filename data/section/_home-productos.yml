@@ -13,4 +13,4 @@ boxes:
 - md: <br>
 - url: '{{ get sections.productos.url }}'
   label: '{{ get sections.productos.label }}'
-  pin: featured_seasonal_and_gifts
+  il: featured_seasonal_and_gifts

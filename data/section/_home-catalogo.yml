@@ -11,4 +11,4 @@ boxes:
 - md: <br>
 - url: '{{ get sections.catalogo.url }}'
   label: '{{ get sections.catalogo.label }}'
-  pin: widgets
+  il: widgets

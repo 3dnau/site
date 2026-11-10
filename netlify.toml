@@ -3,6 +3,7 @@ publish = "public"
 command = "sh do hugo"
 
 [build.environment]
+PNPM_FLAGS = "--frozen-lockfile --config.enable-global-virtual-store=false"
 HUGO_VERSION = "0.164.0"
 NODE_VERSION = "23.5.0"
 

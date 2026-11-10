@@ -16,7 +16,7 @@ boxes:
   hs: 3
   caps: false
   line: false
-- pin: widgets
+- il: widgets
   label: '{{ get sections.header.label }}'
   url: '#catalogo'
   # align_y: center

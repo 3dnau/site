@@ -1,0 +1,237 @@
+{
+  "version": 1,
+  "entries": {
+    "/u/productos/basicos/bacteriofago.webm": {
+      "fingerprint": "05c080651557004903e80675d82cfc58d6d7384dadfab179b660ab8d6d30007a",
+      "metadata": {
+        "width": 960,
+        "height": 1706,
+        "ratio": 0.5627198124267292,
+        "duration": "PT18.966S",
+        "name": "Bacteriofago"
+      }
+    },
+    "/u/productos/basicos/bordes-fallas-tectonicas.webm": {
+      "fingerprint": "4db9cbd33bee570087ed24bba3c33bbd1dc5a234f631e412d8924134bdb28f1f",
+      "metadata": {
+        "width": 960,
+        "height": 540,
+        "ratio": 1.7777777777777777,
+        "duration": "PT5.133S",
+        "name": "Bordes fallas tectonicas"
+      }
+    },
+    "/u/productos/basicos/corazon-humano.mp4": {
+      "fingerprint": "307a865f54d47dead8c0d8fbf992fd49ff5e8edd525bf2f3e37680d0df0c38e2",
+      "metadata": {
+        "width": 960,
+        "height": 540,
+        "ratio": 1.7777777777777777,
+        "duration": "PT10.967S",
+        "name": "Corazon humano"
+      }
+    },
+    "/u/productos/basicos/coronavirus.mp4": {
+      "fingerprint": "3e705871ef2ed1cd00d9ed21608c89d03b0c91c3dec1f11051ecc34754a7742c",
+      "metadata": {
+        "width": 960,
+        "height": 540,
+        "ratio": 1.7777777777777777,
+        "duration": "PT7.067S",
+        "name": "Coronavirus"
+      }
+    },
+    "/u/productos/basicos/cromosomas-sobrecruzamiento.webm": {
+      "fingerprint": "658f8d74f46ddbacaed0b12fa56c2dfdfe82ab494f39de7c5ac6157c004f40d6",
+      "metadata": {
+        "width": 960,
+        "height": 540,
+        "ratio": 1.7777777777777777,
+        "duration": "PT9.1S",
+        "name": "Cromosomas sobrecruzamiento"
+      }
+    },
+    "/u/productos/basicos/flor-sauce-salix.mp4": {
+      "fingerprint": "4b8c48b7b43c7e03a9791bb1c495c6f3cf14112f4184a9cd5558c4eed87f8475",
+      "metadata": {
+        "width": 960,
+        "height": 540,
+        "ratio": 1.7777777777777777,
+        "duration": "PT13.667S",
+        "name": "Flor sauce salix"
+      }
+    },
+    "/u/productos/basicos/fosil-ammonite.webm": {
+      "fingerprint": "133d28928d0a095beba46e7b0a26f034e29cccb723eae7048e0d920149f16d74",
+      "metadata": {
+        "width": 960,
+        "height": 1706,
+        "ratio": 0.5627198124267292,
+        "duration": "PT9.266S",
+        "name": "Fosil ammonite"
+      }
+    },
+    "/u/productos/basicos/neurona-eferente.mp4": {
+      "fingerprint": "f91f6be6ca664d2a19e5ffd2c28441521d5b50e278df7594e51a89d92fbf91e6",
+      "metadata": {
+        "width": 960,
+        "height": 540,
+        "ratio": 1.7777777777777777,
+        "duration": "PT13.367S",
+        "name": "Neurona eferente"
+      }
+    },
+    "/u/productos/basicos/pulmon-humano.mp4": {
+      "fingerprint": "3d50cd412b1fc4db49274629f17e350726000d347014953bf88fa29f283f76bf",
+      "metadata": {
+        "width": 960,
+        "height": 540,
+        "ratio": 1.7777777777777777,
+        "duration": "PT12.367S",
+        "name": "Pulmon humano"
+      }
+    },
+    "/u/productos/basicos/rinon-humano.mp4": {
+      "fingerprint": "e766cae05d67fd8614a03e694b6ef15f4a03b6bde9e059c410c0c99ade2445c1",
+      "metadata": {
+        "width": 960,
+        "height": 540,
+        "ratio": 1.7777777777777777,
+        "duration": "PT10.8S",
+        "name": "Rinon humano"
+      }
+    },
+    "/u/productos/basicos/vaso-sanguineo.mp4": {
+      "fingerprint": "d08f1d7dd42682c7f65f9d0afb2468ddbabc8103a48c20b460c21edbb3ef253a",
+      "metadata": {
+        "width": 960,
+        "height": 540,
+        "ratio": 1.7777777777777777,
+        "duration": "PT5.1S",
+        "name": "Vaso sanguineo"
+      }
+    },
+    "/u/productos/biologia/adn-enrollamiento-horizontal.webm": {
+      "fingerprint": "a15739abc1f9c16c60858b9a27697ac14f4a814ae5b126e96b33c3a61b634b38",
+      "metadata": {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "duration": "PT14.066S",
+        "name": "Adn enrollamiento horizontal",
+        "thumbnailUrl": "/u/video-posters/a15739abc1f9c16c60858b9a27697ac14f4a814ae5b126e96b33c3a61b634b38-first-frame-v1.jpg"
+      }
+    },
+    "/u/productos/biologia/adn-montar-desmontar.webm": {
+      "fingerprint": "bc806e1ea541bfa94380c4ff454bd10e074ec92476d3fa9eae89492429ec40be",
+      "metadata": {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "duration": "PT9.666S",
+        "name": "Adn montar desmontar",
+        "thumbnailUrl": "/u/video-posters/bc806e1ea541bfa94380c4ff454bd10e074ec92476d3fa9eae89492429ec40be-first-frame-v1.jpg"
+      }
+    },
+    "/u/productos/biologia/gencaedro.webm": {
+      "fingerprint": "6f5cda953ceebdccb463caad0cf2a4ab73f4a20167a8883cafed21b4c2d78dbe",
+      "metadata": {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "duration": "PT5.066S",
+        "name": "Gencaedro"
+      }
+    },
+    "/u/productos/biologia/maqueta-adn-2.webm": {
+      "fingerprint": "42e5be11c211f54ae9aec0cbe7270a81430112bcbfd6e99071680af4516da46b",
+      "metadata": {
+        "width": 480,
+        "height": 368,
+        "ratio": 1.3043478260869565,
+        "duration": "PT37.366S",
+        "name": "Maqueta adn 2"
+      }
+    },
+    "/u/productos/biologia/protein-bracelet-2.webm": {
+      "fingerprint": "f5261671f3f5f4cac880d4e00bd23afd695492cdde3ec43fe1895ea52b5ff3f3",
+      "metadata": {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "duration": "PT6.766S",
+        "name": "Protein bracelet 2"
+      }
+    },
+    "/u/productos/biologia/protein-bracelet.webm": {
+      "fingerprint": "40fb4282c099929055a546b755c6a364b60e284dfe91906dc8e9db33e44b8bfc",
+      "metadata": {
+        "width": 1280,
+        "height": 720,
+        "ratio": 1.7777777777777777,
+        "duration": "PT16.733S",
+        "name": "Protein bracelet"
+      }
+    },
+    "/u/productos/inclusivos/adn-braille.webm": {
+      "fingerprint": "9b3916faff0fccf6b61f85b9930a308d368a9ab289bd02be982e5b8841587faf",
+      "metadata": {
+        "width": 960,
+        "height": 1706,
+        "ratio": 0.5627198124267292,
+        "duration": "PT13.466S",
+        "name": "Adn braille"
+      }
+    },
+    "/u/productos/inclusivos/membrana-plasmatica-braille.mp4": {
+      "fingerprint": "1b77f8d6a304905d3852c385c2d7bf0cdcfbd198cf3dffe149575449fda54a32",
+      "metadata": {
+        "width": 960,
+        "height": 540,
+        "ratio": 1.7777777777777777,
+        "duration": "PT11.133S",
+        "name": "Membrana plasmatica braille"
+      }
+    },
+    "/u/productos/inclusivos/neurona-motora-braille.mp4": {
+      "fingerprint": "d2488b37db8269c59f3a5bb2d050316f7f9314b28d4c3ef25103f010d0023fed",
+      "metadata": {
+        "width": 960,
+        "height": 540,
+        "ratio": 1.7777777777777777,
+        "duration": "PT17S",
+        "name": "Neurona motora braille"
+      }
+    },
+    "/u/productos/inclusivos/quimica-braille.webm": {
+      "fingerprint": "47f2114478c095ba047f9a8b308b46a6bb9e38410310bef3af84d64dd0e597f0",
+      "metadata": {
+        "width": 960,
+        "height": 1706,
+        "ratio": 0.5627198124267292,
+        "duration": "PT9.709S",
+        "name": "Quimica braille"
+      }
+    },
+    "/u/productos/montessori/atomos-braille.webm": {
+      "fingerprint": "f900082fe9a81b1e3f6af75c9dbd78b52754fdba6d2a2de766982f1a3265b5e0",
+      "metadata": {
+        "width": 960,
+        "height": 540,
+        "ratio": 1.7777777777777777,
+        "duration": "PT12.233S",
+        "name": "Atomos braille"
+      }
+    },
+    "/u/resenas/ainoa-biogeo.mp4": {
+      "fingerprint": "e85b894948c04f4ef3532a5bad6d0a0d2c360e703e5dd5b17b93c5d4bc325ffd",
+      "metadata": {
+        "width": 350,
+        "height": 576,
+        "ratio": 0.6076388888888888,
+        "duration": "PT36.2S",
+        "name": "Ainoa biogeo"
+      }
+    }
+  }
+}

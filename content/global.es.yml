@@ -2,10 +2,10 @@ menu:
   img: /u/base/logo-alt.svg
   items:
   - url: /
-    icon: home
+    il: home
     label: Inicio
   - url: /categoria/catalogo/
-    icon: widgets
+    il: widgets
     label: Catálogo
 footer:
   div: squares
@@ -15,7 +15,7 @@ footer:
     - ::balance::          {{< internal-link legal >}}
     - ::encrypted::        {{< internal-link privacy >}}
     - ::cookie::           {{< internal-link cookies >}}
-    - ::brand:seacomoseo:: {{< i18n web_design >}} [seacomoseo.com](https://seacomoseo.com/ "[homefollow]")
+    - ::brand:seacomoseo:: {{< i18n web_design >}} [seacomoseo.com](https://seacomoseo.com/ "{sublock}")
     {.list-inline}
 
     **2025 3DNAU**. Innovación impresa. Educación para todos.
