@@ -8,7 +8,7 @@ params:
   worker: 3dnau
   netlify: 3dnau
   worker_vars:
-    FORMS_PROVIDER: hold
+    FORMS_PROVIDER: gmail
     COMMERCE_ENV: test
     COMMERCE_PROVIDER: stripe
     COMMERCE_CHECKOUT_APPROVED: 'false'
