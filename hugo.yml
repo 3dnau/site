@@ -5,7 +5,6 @@ params:
   drive_url: https://drive.google.com/file/d/11xUiZo3kEIbu-1JX_hGzP2SRWj6zUTTD
   drive_mails: saraypilchardus@gmail.com
   repo: site
-  worker: 3dnau
   netlify: 3dnau
   worker_vars:
     FORMS_PROVIDER: gmail
