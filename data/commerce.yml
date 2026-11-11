@@ -31,5 +31,6 @@ notes:
 privacy_retention:
   orders: "6 años (Código de Comercio y normativa fiscal)"
   delivery: "3 años desde la entrega (garantía legal)"
-# Borrado automático de dirección y contacto de entrega (días); debe coincidir con privacy_retention.delivery.
-delivery_retention_days: 1095
+# Borrado automático de dirección y contacto de entrega (días): DESACTIVADO por decisión de Loren (2026-11-11), por defecto no se borra nada.
+# Solo si la normativa lo exige: activar con un valor que coincida con privacy_retention.delivery.
+# delivery_retention_days: 1095
