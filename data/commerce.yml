@@ -34,6 +34,7 @@ privacy_retention:
 # delivery_retention_days: 1095
 order_notices:
   enabled: true
+  buyer_invoice: false   # Saray (2026-11-12): la factura solo a ella hasta que la compruebe
 invoice:
   enabled: true
   language: es
@@ -46,5 +47,6 @@ invoice:
       - 30140 Santomera (Murcia)
   series:
     prefix: WEB
+  payment_text: Pagado con tarjeta bancaria
   item_label: "Venta material 3D ({name})"
   exempt_note: "Operación exenta de IVA según art. 21 Ley 37/1992 (envío a Canarias)"
