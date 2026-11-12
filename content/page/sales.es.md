@@ -7,7 +7,7 @@ weight: 4
 type: system
 ---
 
-**Versión:** borrador-2026-11-10 · **BORRADOR pendiente de revisión por 3DNAU.** Los puntos marcados como _[pendiente]_ deben completarse antes de publicar.
+**Versión:** 2026-11-12
 
 ## Vendedor
 
@@ -19,19 +19,17 @@ Los productos son modelos didácticos que fabricamos bajo pedido. Los precios es
 
 ## Envío
 
-- **Península y Baleares:** 12,05 € por pedido de una unidad de hasta 2 kg _[pendiente: confirmar importe e IVA del envío]_.
+- **Península y Baleares:** 6 € (IVA incluido) por pedido de una unidad de hasta 2 kg.
 - **Canarias, Ceuta, Melilla, otros países, varias unidades o más de 2 kg:** te enviamos un presupuesto antes de comprar. Escríbenos desde el formulario de contacto.
-- **Plazo:** fabricamos y enviamos en _[pendiente: días laborables]_ desde la confirmación del pago. Te avisaremos si un pedido va a tardar más.
+- **Plazo:** fabricamos cada pedido en unas 2 semanas desde la confirmación del pago y lo enviamos los lunes. Te avisaremos si un pedido va a tardar más.
 
 ## Pedido y pago
 
-El pedido se confirma cuando el pago se completa en la página segura de Stripe (tarjeta y otros métodos que se muestren allí). Recibirás el justificante de pago por email. La factura se emite a petición _[pendiente: confirmar cómo se emite la factura]_.
+El pedido se confirma cuando el pago se completa en la página segura de Stripe (tarjeta y otros métodos que se muestren allí). Recibirás por email la confirmación del pedido con su factura.
 
 ## Derecho de desistimiento
 
-Puedes desistir de la compra en un plazo de **14 días naturales** desde que recibes el producto, sin indicar el motivo. Escríbenos a {{% legal mail %}} con tu número de pedido. Te devolveremos el importe pagado, incluido el envío estándar, en un plazo máximo de 14 días desde que nos comuniques el desistimiento; podemos retener el reembolso hasta recibir el producto. El coste de la devolución corre a tu cargo _[pendiente: confirmar]_. El producto debe devolverse en buen estado.
-
-> Nota interna para 3DNAU (quitar antes de publicar): los productos se fabrican bajo pedido pero son de catálogo, no personalizados, así que la excepción al desistimiento del art. 103.c de la Ley de Consumidores no se aplica. Solo cabría para encargos hechos a medida de un cliente.
+Puedes desistir de la compra en un plazo de **14 días naturales** desde que recibes el producto, sin indicar el motivo. Escríbenos a {{% legal mail %}} con tu número de pedido. Te devolveremos el importe pagado, incluido el envío estándar, en un plazo máximo de 14 días desde que nos comuniques el desistimiento; podemos retener el reembolso hasta recibir el producto. El coste de la devolución corre a tu cargo. El producto debe devolverse en buen estado.
 
 ## Garantía
 

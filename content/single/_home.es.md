@@ -26,6 +26,8 @@ org:
   - 3DNAU - Material Didáctico
   - 3DNAU - Material Didáctico Manipulativo para Educación
   desc: Material didáctico manipulativo para educación. Modelos 3D mediante impresión de materiales reponibles adaptados a todos los estudiantes.
+  legal: Saray Mañas Jordá
+  nif: 47085939V
   mail: info@3dnau.com
   logo: /u/base/poster.svg
   imgs:
@@ -39,6 +41,7 @@ org:
   - 637 984 003
   address:
   - name: 3DNAU
+    legal: Calle Acequia 4, 2.º A, 30140 Santomera (Murcia)
     street: C. Campus Universitario, 5
     pc: '30100'
     locality: Murcia

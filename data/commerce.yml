@@ -4,33 +4,47 @@ origin: https://3dnau.com
 currency: eur
 stock_mode: made_to_order
 checkout_approved: false
-checkout_legal_version: borrador-2026-11-10
+checkout_legal_version: 2026-11-12
 checkout_tax_policy: included
 checkout_shipping_policy: flat_rate
-# Política de totales (servidor). Fuente: correo de Saray del 10/11/2026 (hilo
-# «Cuestionario Ecommerce»). BORRADOR pendiente de confirmar con ella:
-# - Envío a península y Baleares 12,05 € exento de IVA (lo dio para Canarias,
-#   Ceuta y Melilla; la carta certificada de 1-2 kg cuesta 12,23 € en 2026).
+# Política de totales (servidor). Fuente: correo de Saray del 12/11/2026.
+# - Envío a península y Baleares: 6 € fijos con IVA incluido (21 %).
 # - Más de 2 kg o más de una unidad → presupuesto.
 # - Canarias (35, 38), Ceuta (51) y Melilla (52) → presupuesto en el lanzamiento.
 totals_policy:
-  version: 3dnau-2026-11-10-borrador
+  version: 3dnau-2026-11-12
   destinations:
     ES:
       tax: { mode: inclusive, rate_percent: 21 }
       excluded_postal_prefixes: ['35', '38', '51', '52']
       shipping:
-        amount: 12.05
-        tax: { mode: exempt }
+        amount: 6
+        tax: { mode: inclusive, rate_percent: 21 }
         max_weight_kg: 2
         max_units: 1
 notes:
-  product: "Precio con IVA incluido. Envío a península y Baleares: 12,05 € (una unidad de hasta 2 kg). Fabricamos cada pedido."
+  product: "Precio con IVA incluido. Envío a península y Baleares: 6 € IVA incluido (una unidad de hasta 2 kg). Fabricamos cada pedido."
   cart: "Canarias, Ceuta, Melilla, otros países, varias unidades o más de 2 kg: [pide presupuesto](/#contacto) y te lo enviamos. Al pagar aceptas las [condiciones de venta](/condiciones-de-venta/)."
-# Plazos de conservación: PROPUESTA pendiente de 3DNAU/gestoría.
+# Plazos de conservación: PROPUESTA pendiente de que Saray fije su política.
 privacy_retention:
   orders: "6 años (Código de Comercio y normativa fiscal)"
   delivery: "3 años desde la entrega (garantía legal)"
 # Borrado automático de dirección y contacto de entrega (días): DESACTIVADO por decisión de Loren (2026-11-11), por defecto no se borra nada.
 # Solo si la normativa lo exige: activar con un valor que coincida con privacy_retention.delivery.
 # delivery_retention_days: 1095
+order_notices:
+  enabled: true
+invoice:
+  enabled: true
+  language: es
+  timezone: Europe/Madrid
+  seller:
+    name: Saray Mañas Jordá
+    tax_id: 47085939V
+    address:
+      - Calle Acequia 4, 2.º A
+      - 30140 Santomera (Murcia)
+  series:
+    prefix: WEB
+  item_label: "Venta material 3D ({name})"
+  exempt_note: "Operación exenta de IVA según art. 21 Ley 37/1992 (envío a Canarias)"
