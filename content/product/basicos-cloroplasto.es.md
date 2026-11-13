@@ -11,6 +11,10 @@ imgs:
 category:
 - basicos
 - basicos-botanica
+commerce_id: d7b1c1e5-9eb5-4afb-b30f-dbf602084ff0
+sku: 3DNAU-0004
+commerce_active: true
+commerce_weight_kg: 0.2
 ---
 
 **Modelo Didáctico de Cloroplasto y Ultraestructura Tilacoidal**

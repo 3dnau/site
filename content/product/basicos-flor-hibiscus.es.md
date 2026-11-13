@@ -10,6 +10,10 @@ imgs:
 category:
 - basicos
 - basicos-botanica
+commerce_id: bf5d567e-5d5b-4384-bf9b-5c3774e66f10
+sku: 3DNAU-0012
+commerce_active: true
+commerce_weight_kg: 0.8
 ---
 
 **Modelo de Anatomía Floral Hibiscus sp. (Corte Transversal de Flor Angiosperma)**

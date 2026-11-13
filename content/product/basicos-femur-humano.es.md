@@ -11,6 +11,10 @@ imgs:
 category:
 - basicos
 - basicos-anatomia
+commerce_id: b66d326e-e576-4d81-99f6-25de0b2c982e
+sku: 3DNAU-0011
+commerce_active: true
+commerce_weight_kg: 0.8
 ---
 
 **Modelo a Escala de Fémur Humano**

@@ -11,6 +11,10 @@ imgs:
 category:
 - basicos
 - basicos-botanica
+commerce_id: 983e50c2-4a73-48a2-96e2-c491373b63bd
+sku: 3DNAU-0003
+commerce_active: true
+commerce_weight_kg: 0.5
 ---
 
 **Secuencia del Ciclo de Vida y Fructificación del Tomate (Solanum lycopersicum)**

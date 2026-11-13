@@ -11,6 +11,10 @@ imgs:
 category:
 - basicos
 - basicos-anatomia
+commerce_id: d4adb5bc-3dd0-4299-9554-64c3266a90f6
+sku: 3DNAU-0017
+commerce_active: true
+commerce_weight_kg: 0.15
 ---
 
 **Modelo Esquemático del Ojo Humano (Corte Sagital)**

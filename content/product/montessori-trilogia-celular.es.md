@@ -11,6 +11,10 @@ imgs:
 category:
 - montessori
 - biologia
+commerce_id: 6ea6193d-16ed-4288-9fba-a3fe61576ded
+sku: 3DNAU-0046
+commerce_active: true
+commerce_weight_kg: 1.1
 ---
 
 **PACK COMPLETO: Trilogía Celular Integral (Procariota + Eucariota Animal + Eucariota Vegetal)**

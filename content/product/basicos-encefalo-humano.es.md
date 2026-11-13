@@ -12,6 +12,10 @@ imgs:
 category:
 - basicos
 - basicos-anatomia
+commerce_id: 7d558e38-db5f-4273-b1cb-14ee59859a0b
+sku: 3DNAU-0009
+commerce_active: true
+commerce_weight_kg: 0.7
 ---
 
 **Modelo Anatómico de Encéfalo Humano (Desmontable con Fijación Magnética)**

@@ -14,6 +14,10 @@ imgs:
 - /u/productos/biologia/protein-bracelet.webm#mute
 category:
 - biologia
+commerce_id: da631b1c-6d7a-45cc-b426-dec61dc28c8d
+sku: 3DNAU-0029
+commerce_active: true
+commerce_weight_kg: 1.1
 ---
 
 ## La maqueta del ADN es ideal para

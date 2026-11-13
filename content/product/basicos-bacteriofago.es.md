@@ -10,6 +10,10 @@ imgs:
 category:
 - basicos
 - basicos-microbiologia
+commerce_id: d3aa3822-50c1-46f3-b4a6-fe5296e83625
+sku: 3DNAU-0001
+commerce_active: true
+commerce_weight_kg: 0.5
 ---
 
 **Modelo Tridimensional de Bacteriófago (Fago T4 / Virus Complejo)**

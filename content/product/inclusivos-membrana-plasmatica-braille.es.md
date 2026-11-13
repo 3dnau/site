@@ -11,6 +11,10 @@ imgs:
 - /u/productos/inclusivos/membrana-plasmatica-braille.mp4#mute
 category:
 - inclusivos
+commerce_id: dd40392e-8f49-48c8-8bc3-186744bb2ff0
+sku: 3DNAU-0036
+commerce_active: true
+commerce_weight_kg: 0.9
 ---
 
 **Modelo de Membrana Plasmática (Mosaico Fluido) con Peana en Braille**

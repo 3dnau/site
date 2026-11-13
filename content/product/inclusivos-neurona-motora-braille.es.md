@@ -11,6 +11,10 @@ imgs:
 category:
 - inclusivos
 - basicos-tejidos
+commerce_id: 555abc4a-1b15-443e-8b9d-f875b7586ed9
+sku: 3DNAU-0037
+commerce_active: true
+commerce_weight_kg: 0.4
 ---
 
 **Modelo Didáctico de Neurona Motora con Vaina de Mielina y Peana en Braille**

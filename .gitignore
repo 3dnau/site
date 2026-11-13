@@ -6,3 +6,8 @@ resources
 package-lock.json
 .vscode
 jsconfig.json
+/worker/
+.wrangler
+.dev.vars
+.pnpm-store
+functions/_commerce/

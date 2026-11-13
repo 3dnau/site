@@ -11,6 +11,10 @@ imgs:
 category:
 - basicos
 - basicos-tejidos
+commerce_id: 74e02e0f-c985-4231-b813-42db03f06c7d
+sku: 3DNAU-0019
+commerce_active: true
+commerce_weight_kg: 0.7
 ---
 
 **Bloque Anatómico de la Piel Humana (Estructura Multicapa y Anexos Cutáneos)**

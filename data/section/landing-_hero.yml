@@ -17,7 +17,7 @@ boxes:
   - hanchor: '{{ get landing_sections.header.hanchor }}'
     title: '{{ get landing_sections.header.title }}'
     line: false
-  - pin: download
+  - il: download
     label: '{{ get landing_sections.header.label }}'
     url: '#descarga'
 - img: '{{ get landing_sections.header.img }}'

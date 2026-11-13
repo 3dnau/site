@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "nextSku": 58,
+  "entries": [
+    {
+      "key": "basicos-bacteriofago",
+      "commerce_id": "d3aa3822-50c1-46f3-b4a6-fe5296e83625",
+      "sku": "3DNAU-0001",
+      "retired": false
+    },
+    {
+      "key": "basicos-bordes-fallas-tectonicas",
+      "commerce_id": "4119367a-0fcd-4ff8-af1f-74ff8ddbe233",
+      "sku": "3DNAU-0002",
+      "retired": false
+    },
+    {
+      "key": "basicos-ciclo-tomate",
+      "commerce_id": "983e50c2-4a73-48a2-96e2-c491373b63bd",
+      "sku": "3DNAU-0003",
+      "retired": false
+    },
+    {
+      "key": "basicos-cloroplasto",
+      "commerce_id": "d7b1c1e5-9eb5-4afb-b30f-dbf602084ff0",
+      "sku": "3DNAU-0004",
+      "retired": false
+    },
+    {
+      "key": "basicos-corazon-humano",
+      "commerce_id": "154d9a91-d7fe-46de-9301-5f217b98c14c",
+      "sku": "3DNAU-0005",
+      "retired": false
+    },
+    {
+      "key": "basicos-coronavirus",
+      "commerce_id": "3bf9df58-ca82-464c-8bb8-22a701481226",
+      "sku": "3DNAU-0006",
+      "retired": false
+    },
+    {
+      "key": "basicos-craneo-humano",
+      "commerce_id": "e4cc3261-8f70-412a-a235-180dffa02ee8",
+      "sku": "3DNAU-0007",
+      "retired": false
+    },
+    {
+      "key": "basicos-cromosomas-sobrecruzamiento",
+      "commerce_id": "0918d109-2838-4e6e-9edc-f5e8970b75c3",
+      "sku": "3DNAU-0008",
+      "retired": false
+    },
+    {
+      "key": "basicos-encefalo-humano",
+      "commerce_id": "7d558e38-db5f-4273-b1cb-14ee59859a0b",
+      "sku": "3DNAU-0009",
+      "retired": false
+    },
+    {
+      "key": "basicos-falla-geologica",
+      "commerce_id": "035889f3-fc5b-45ef-b5c8-a5ee7e64cddd",
+      "sku": "3DNAU-0010",
+      "retired": false
+    },
+    {
+      "key": "basicos-femur-humano",
+      "commerce_id": "b66d326e-e576-4d81-99f6-25de0b2c982e",
+      "sku": "3DNAU-0011",
+      "retired": false
+    },
+    {
+      "key": "basicos-flor-hibiscus",
+      "commerce_id": "bf5d567e-5d5b-4384-bf9b-5c3774e66f10",
+      "sku": "3DNAU-0012",
+      "retired": false
+    },
+    {
+      "key": "basicos-flor-sauce-salix",
+      "commerce_id": "defb19ec-e5fb-4f38-9021-a565c111f3b6",
+      "sku": "3DNAU-0013",
+      "retired": false
+    },
+    {
+      "key": "basicos-fosil-ammonite",
+      "commerce_id": "75de60a8-3ce3-476c-a3c1-16cb4ac8c7b8",
+      "sku": "3DNAU-0014",
+      "retired": false
+    },
+    {
+      "key": "basicos-microestructura-osea",
+      "commerce_id": "df4d2c0a-2d25-4071-bfc3-47472764f193",
+      "sku": "3DNAU-0015",
+      "retired": false
+    },
+    {
+      "key": "basicos-neurona-eferente",
+      "commerce_id": "ac18aa43-0c6a-4ed4-aae4-1d4c39c9ef01",
+      "sku": "3DNAU-0016",
+      "retired": false
+    },
+    {
+      "key": "basicos-ojo-humano",
+      "commerce_id": "d4adb5bc-3dd0-4299-9554-64c3266a90f6",
+      "sku": "3DNAU-0017",
+      "retired": false
+    },
+    {
+      "key": "basicos-pelvis-osea",
+      "commerce_id": "1c8688b3-2d1a-4969-bc79-f5985e32af2e",
+      "sku": "3DNAU-0018",
+      "retired": false
+    },
+    {
+      "key": "basicos-piel-humana",
+      "commerce_id": "74e02e0f-c985-4231-b813-42db03f06c7d",
+      "sku": "3DNAU-0019",
+      "retired": false
+    },
+    {
+      "key": "basicos-pliegues-geologicos",
+      "commerce_id": "269b7c34-4fa9-472e-b5b4-d567a09a7e57",
+      "sku": "3DNAU-0020",
+      "retired": false
+    },
+    {
+      "key": "basicos-pulmon-humano",
+      "commerce_id": "0af5d2e1-da93-4803-8c82-ae786a88f09e",
+      "sku": "3DNAU-0021",
+      "retired": false
+    },
+    {
+      "key": "basicos-rinon-humano",
+      "commerce_id": "63f26944-da87-4863-8b48-8e6004da6c14",
+      "sku": "3DNAU-0022",
+      "retired": false
+    },
+    {
+      "key": "basicos-vaso-sanguineo",
+      "commerce_id": "b134f68a-9eb4-42d8-ab67-2bf1d9752500",
+      "sku": "3DNAU-0023",
+      "retired": false
+    },
+    {
+      "key": "biologia-bomba-sodio-potasio",
+      "commerce_id": "8b90202e-4fc3-4873-850a-39ae00bb6975",
+      "sku": "3DNAU-0024",
+      "retired": false
+    },
+    {
+      "key": "biologia-celula-eucariota-animal",
+      "commerce_id": "0b438fc3-1f8a-4ac9-aeed-3bc7b198e76b",
+      "sku": "3DNAU-0025",
+      "retired": true
+    },
+    {
+      "key": "biologia-celula-eucariota-vegetal",
+      "commerce_id": "538ca008-5dc8-4183-b549-9f3914ba6ce9",
+      "sku": "3DNAU-0026",
+      "retired": true
+    },
+    {
+      "key": "biologia-gencaedro",
+      "commerce_id": "1292e97a-692a-4c96-9574-49eb166ea37c",
+      "sku": "3DNAU-0027",
+      "retired": false
+    },
+    {
+      "key": "biologia-kit-adn-avanzado",
+      "commerce_id": "1465c264-5305-4c02-b27a-16b7f580e427",
+      "sku": "3DNAU-0028",
+      "retired": false
+    },
+    {
+      "key": "biologia-kit-adn-basico",
+      "commerce_id": "da631b1c-6d7a-45cc-b426-dec61dc28c8d",
+      "sku": "3DNAU-0029",
+      "retired": false
+    },
+    {
+      "key": "biologia-kit-anticuerpos",
+      "commerce_id": "341a7175-6645-4a0f-8471-e643814a05c5",
+      "sku": "3DNAU-0030",
+      "retired": false
+    },
+    {
+      "key": "biologia-maqueta-adn",
+      "commerce_id": "447293d5-ff18-4320-8541-229367ed6d64",
+      "sku": "3DNAU-0031",
+      "retired": false
+    },
+    {
+      "key": "biologia-pack-3-kits-adn-avanzado",
+      "commerce_id": "d3a2fb3c-e55c-4e35-ac6d-aeb057c85e23",
+      "sku": "3DNAU-0032",
+      "retired": false
+    },
+    {
+      "key": "biologia-pack-3-kits-adn",
+      "commerce_id": "0d6fa55a-f338-40d4-846b-aa84d805e5c9",
+      "sku": "3DNAU-0033",
+      "retired": false
+    },
+    {
+      "key": "biologia-protein-bracelet",
+      "commerce_id": "0e599ed6-8120-47ed-afa1-d6e77b1f5c77",
+      "sku": "3DNAU-0034",
+      "retired": false
+    },
+    {
+      "key": "inclusivos-adn-braille",
+      "commerce_id": "588be7b0-5db2-4c60-8829-44c393c2e685",
+      "sku": "3DNAU-0035",
+      "retired": false
+    },
+    {
+      "key": "inclusivos-membrana-plasmatica-braille",
+      "commerce_id": "dd40392e-8f49-48c8-8bc3-186744bb2ff0",
+      "sku": "3DNAU-0036",
+      "retired": false
+    },
+    {
+      "key": "inclusivos-neurona-motora-braille",
+      "commerce_id": "555abc4a-1b15-443e-8b9d-f875b7586ed9",
+      "sku": "3DNAU-0037",
+      "retired": false
+    },
+    {
+      "key": "inclusivos-quimica-braille",
+      "commerce_id": "b9ba6d6d-3e9e-4214-beef-e96df8b0983a",
+      "sku": "3DNAU-0038",
+      "retired": false
+    },
+    {
+      "key": "montessori-atomos-braille",
+      "commerce_id": "f1ed5042-e4e9-44db-b0bb-94e7c5e49514",
+      "sku": "3DNAU-0039",
+      "retired": false
+    },
+    {
+      "key": "montessori-celula-animal",
+      "commerce_id": "fcf04c4e-f431-49e4-b425-4a2884956c76",
+      "sku": "3DNAU-0040",
+      "retired": false
+    },
+    {
+      "key": "montessori-celula-procariota",
+      "commerce_id": "3abbb6e6-38b0-4750-93a2-4fa92a8997db",
+      "sku": "3DNAU-0041",
+      "retired": false
+    },
+    {
+      "key": "montessori-celula-vegetal",
+      "commerce_id": "abb74808-24c6-4797-98c2-7768ac8e18b1",
+      "sku": "3DNAU-0042",
+      "retired": false
+    },
+    {
+      "key": "montessori-genetica-adn-arn",
+      "commerce_id": "e77bcd18-f42c-4184-b8ca-84c773fc5843",
+      "sku": "3DNAU-0043",
+      "retired": false
+    },
+    {
+      "key": "montessori-inmunologia",
+      "commerce_id": "6f61b878-f7ed-4f87-82b5-96cfdcd269ad",
+      "sku": "3DNAU-0044",
+      "retired": false
+    },
+    {
+      "key": "montessori-pack-celulas-eucariotas",
+      "commerce_id": "4b187637-c1ab-4a62-a96a-e7e0b8747ab0",
+      "sku": "3DNAU-0045",
+      "retired": false
+    },
+    {
+      "key": "montessori-trilogia-celular",
+      "commerce_id": "6ea6193d-16ed-4288-9fba-a3fe61576ded",
+      "sku": "3DNAU-0046",
+      "retired": false
+    },
+    {
+      "key": "psicopedagogia-14-cubos-kohs-test-wppsi-iv",
+      "commerce_id": "ff01e108-15a6-4736-b8fc-010244c766a0",
+      "sku": "3DNAU-0047",
+      "retired": false
+    },
+    {
+      "key": "psicopedagogia-19-cubos-kohs-combinados-test-wisc-wais-wppsi",
+      "commerce_id": "4d0c7491-527c-4e34-bcaf-8a2ab3b16459",
+      "sku": "3DNAU-0048",
+      "retired": false
+    },
+    {
+      "key": "psicopedagogia-3-anillas-base-test-merrill-palmer-mp-r",
+      "commerce_id": "ab6389bc-070a-4eb0-9b00-ff0fcd74c319",
+      "sku": "3DNAU-0049",
+      "retired": false
+    },
+    {
+      "key": "psicopedagogia-60-fichas-50-palitos-material-test-tedi-math",
+      "commerce_id": "909e0715-bcdb-4fba-b979-a7550874b35b",
+      "sku": "3DNAU-0050",
+      "retired": false
+    },
+    {
+      "key": "psicopedagogia-9-cubos-kohs-test-wisc-v-wais",
+      "commerce_id": "fb42be5c-1c7e-4434-8b27-0327f4788a85",
+      "sku": "3DNAU-0051",
+      "retired": false
+    },
+    {
+      "key": "psicopedagogia-base-6-bastones-cuadrados-test-merrill-palmer-mp-r",
+      "commerce_id": "a6489674-3c95-4f46-bff3-1d973b89be80",
+      "sku": "3DNAU-0052",
+      "retired": false
+    },
+    {
+      "key": "psicopedagogia-base-6-bastones-redondos-test-merrill-palmer-mp-r",
+      "commerce_id": "69413785-783b-43e3-8f81-6b74a7b5127a",
+      "sku": "3DNAU-0053",
+      "retired": false
+    },
+    {
+      "key": "psicopedagogia-juego-6-anillas-enfen-base-torre-hanoi",
+      "commerce_id": "9ff727f1-f716-4541-ab2f-1c30b619f7dc",
+      "sku": "3DNAU-0054",
+      "retired": false
+    },
+    {
+      "key": "psicopedagogia-puzzle-4-piezas-test-merrill-palmer-mp-r",
+      "commerce_id": "0a32f7f9-103b-458d-b021-a4b11999b7ad",
+      "sku": "3DNAU-0055",
+      "retired": false
+    },
+    {
+      "key": "psicopedagogia-puzzle-6-piezas-test-merrill-palmer-mp-r",
+      "commerce_id": "9d880bf3-cfff-4da9-9cbc-f0a36151f6dd",
+      "sku": "3DNAU-0056",
+      "retired": false
+    },
+    {
+      "key": "psicopedagogia-tablero-10-cubos-corsi-test-wnv",
+      "commerce_id": "83e3b9f9-1c2a-4cdf-9c68-9bb4c8574ea9",
+      "sku": "3DNAU-0057",
+      "retired": false
+    }
+  ]
+}

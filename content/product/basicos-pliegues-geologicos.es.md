@@ -10,6 +10,10 @@ imgs:
 category:
 - basicos
 - basicos-geologia
+commerce_id: 269b7c34-4fa9-472e-b5b4-d567a09a7e57
+sku: 3DNAU-0020
+commerce_active: true
+commerce_weight_kg: 0.25
 ---
 
 **1.3. Bloque de Pliegues Geológicos (Anticlinales y Sinclinales)**

@@ -9,11 +9,6 @@ boxes:
   - type: tax
 - if: price
   price: '{{ get price }}'
-  md: |
-    ^Gastos de envío no incluidos^
-- url: '#comprar'
-  label: Comprar
-  align: left
 - if: img
   get:
   - from: img

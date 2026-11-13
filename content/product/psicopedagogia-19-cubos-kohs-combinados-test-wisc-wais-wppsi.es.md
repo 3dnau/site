@@ -6,6 +6,10 @@ img: /u/productos/psicopedagogia/19-cubos-kohs-combinados-test-wisc-wais-wppsi.w
 price: 38.9
 category:
 - psicopedagogia
+commerce_id: 4d0c7491-527c-4e34-bcaf-8a2ab3b16459
+sku: 3DNAU-0048
+commerce_active: true
+commerce_weight_kg: 0.4
 ---
 
 **Juego de cubos de Kohs validos tanto para prueba WISC y WAIS, como para prueba WPPSI.**

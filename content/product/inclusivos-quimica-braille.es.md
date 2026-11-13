@@ -14,6 +14,10 @@ imgs:
 category:
 - inclusivos
 - biologia
+commerce_id: b9ba6d6d-3e9e-4214-beef-e96df8b0983a
+sku: 3DNAU-0038
+commerce_active: true
+commerce_weight_kg: 1.3
 ---
 
 **Set de química: Modelado Molecular Universal y Átomos con Simbología Braille**
