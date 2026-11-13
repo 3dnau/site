@@ -41,5 +41,6 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_ACCOUNT_SLUG: ${{ vars.NETLIFY_ACCOUNT_SLUG }}
+          GL_DEPLOY_KEY: ${{ secrets.GL_DEPLOY_KEY }}
           GL_PAT: ${{ secrets.GL_PAT }}
           GITHUB_TOKEN: ${{ github.token }}

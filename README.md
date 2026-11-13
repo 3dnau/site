@@ -19,7 +19,7 @@ Cada push a `main` ejecuta el workflow `SanSoul` (`.github/workflows/sansoul.yml
 generado por el motor): copia en GitLab, build y despliegue en Cloudflare Workers.
 El nombre del Worker y sus variables están en `hugo.yml` (`params.worker`,
 `params.worker_vars`); el resto lo genera el motor. Secretos del repositorio:
-`CLOUDFLARE_API_TOKEN` (token de la cuenta Cloudflare del proyecto) y `GL_PAT`.
+`CLOUDFLARE_API_TOKEN` (token de la cuenta Cloudflare del proyecto) y `GL_DEPLOY_KEY` (o, heredado, `GL_PAT`).
 
 ```sh
 git submodule update --init --recursive
