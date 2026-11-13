@@ -35,6 +35,7 @@ privacy_retention:
 order_notices:
   enabled: true
   buyer_invoice: false   # Saray (2026-11-12): la factura solo a ella hasta que la compruebe
+checkout_tax_id: false   # 14.4: sin «Compro como empresa» hasta que Saray decida (comportamiento 14.3.3)
 invoice:
   enabled: true
   language: es
