@@ -6,6 +6,7 @@ params:
   drive_mails: saraypilchardus@gmail.com
   repo: site
   netlify: 3dnau
+  gitlab: seacomoseo/3dnau.com   # el proyecto de GitLab no se llama como el repo (site)
   worker_vars:
     FORMS_PROVIDER: gmail
     COMMERCE_ENV: test
