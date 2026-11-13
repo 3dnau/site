@@ -1,4 +1,5 @@
 ---
+weight: null
 slug: /
 title: Inicio
 img: /u/base/poster.svg
@@ -61,8 +62,8 @@ org:
       thu: true
       fri: true
     hours:
-    - open: 8:00
-      close: 22:00
+    - open: '8:00'
+      close: '22:00'
   prices: €€
 sections:
   header:
@@ -122,16 +123,16 @@ sections:
         En 2025, 3DNAU fue distinguido con dos premios clave en el ámbito del emprendimiento y la innovación: el **Santander X Award (Universidad de Murcia)** y un reconocimiento de la **Cámara de Comercio de Murcia**, validando el potencial y la relevancia de nuestro proyecto.
     - title: Perfil del Equipo
       md: Los fundadores cuentan con un equipo diverso de profesionales y el apoyo incondicional de la Universidad de Murcia, combinando la experiencia en educación y ciencias, con el talento de expertos diseñadores especializados en tecnologías de impresión 3D.
-  productos: 
-    title: Productos
-    sub: Destacados
-    url: /productos/
-    label: Ver todos
   catalogo:
     title: Catálogo
     sub: Categorías Principales
     url: /categoria/catalogo/
     label: Ver categorías
+  productos:
+    title: Productos
+    sub: Destacados
+    url: /productos/
+    label: Ver todos
   resenas:
     title: Reseñas
     sub: Entrevistas personales
@@ -155,6 +156,9 @@ sections:
         Los materiales manipulativos muestran una mejora en la participación y aceptación del aprendizaje en el aula al darles mayor protagonismo a los alumnos.
 
         Es algo a lo que aspirar como docente
+    - title: Javier
+      sub: Docente de apoyo a la inclusión, IES Poeta Julián Andúgar (Santomera)
+      md: 'Los modelos táctiles y manipulativos de 3DNAU han sido una herramienta clave en el aula: Permiten que la alumna con discapacidad visual siga las explicaciones al mismo ritmo que sus compañeros y sin barreras, y a su vez beneficia a todos los alumnos sin excepción. Además, se despierta una empatía y sensibilidad involuntaria preciosa con la diversidad de nuestra sociedad, logrando un impacto que va mucho más allá del propio temario.'
   faq:
     title: FAQ
     sub: Preguntas Frecuentes
