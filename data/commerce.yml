@@ -22,6 +22,8 @@ totals_policy:
         tax: { mode: inclusive, rate_percent: 21 }
         max_weight_kg: 2
         max_units: 1
+# Botón «Solicitar presupuesto» junto al aviso del carrito.
+cart_quote: true
 notes:
   product: "Precio con IVA incluido. Envío a península y Baleares: 6 € IVA incluido (una unidad de hasta 2 kg). Fabricamos cada pedido."
   cart: "Canarias, Ceuta, Melilla, otros países, varias unidades o más de 2 kg: [pide presupuesto](/#contacto) y te lo enviamos. Al pagar aceptas las [condiciones de venta](/condiciones-de-venta/)."
