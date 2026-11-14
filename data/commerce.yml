@@ -29,13 +29,21 @@ notes:
 privacy_retention:
   orders: "6 años (Código de Comercio y normativa fiscal)"
   delivery: "3 años desde la entrega (garantía legal)"
+  contacts: "Hasta que te des de baja o retires el permiso; revisamos la lista cada 2 años"
 # Borrado automático de dirección y contacto de entrega (días): DESACTIVADO por decisión de Loren (2026-11-11), por defecto no se borra nada.
 # Solo si la normativa lo exige: activar con un valor que coincida con privacy_retention.delivery.
 # delivery_retention_days: 1095
 order_notices:
   enabled: true
-  buyer_invoice: false   # Saray (2026-11-12): la factura solo a ella hasta que la compruebe
-checkout_tax_id: false   # 14.4: sin «Compro como empresa» hasta que Saray decida (comportamiento 14.3.3)
+  buyer_invoice: on_request   # Saray (2026-11-13): casilla «Quiero recibir la factura»; ella recibe siempre todas
+audience:                # Saray (2026-11-13): casilla opcional de promociones; lista en Brevo
+  enabled: true
+  customers: false       # quien compra sin marcar la casilla no entra en la lista
+  consent_version: promo-2026-11-14
+  consent_text:
+    es: "Acepto recibir promociones y novedades de 3DNAU"
+  provider: "Brevo (Sendinblue SAS, Francia)"
+checkout_tax_id: true   # Saray (2026-11-13): NIF/CIF opcional; con NIF «FACTURA», sin NIF «FACTURA SIMPLIFICADA» (invoice.simplified, por defecto con language: es)
 invoice:
   enabled: true
   language: es
